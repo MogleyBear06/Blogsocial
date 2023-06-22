@@ -10,13 +10,12 @@ const {
 } = require("../../controllers/thoughtController");
 
 // --> /thoughts
-router.route("/").get(getThoughts).get(getSingleThought).post(createThought);
+router.route("/").get(getThoughts).post(createThought);
 
 // --> /thoughts/:thoughtId
-router.route("/:thoughtId").put(updateThought).delete(deleteThought);
+router.route("/:thoughtId").put(updateThought).delete(deleteThought).get(getSingleThought);
 
 // --> /thoughts/:thoughtId/reactions
-
 router
   .route("/:thoughtId/reactions")
   .post(addReaction)
