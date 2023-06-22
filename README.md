@@ -19,7 +19,7 @@
   ## Installation
   To install Blogsocial, clone this repo into your machine, run npm i to install the necessary dependencies, run node index.js and, because there isn't a front-end, test the various API routes in either Insomnia or Postman.
 
-  Link to walkthrough video: https://watch.screencastify.com/v/JJ3HZbQpUsORMMS6KIKB
+  Link to walkthrough video: https://watch.screencastify.com/v/BU7fnCIqXAM7AyFoCY4Q
   
   ## Usage
   Blogsocial is used as a tool to connect users with one another with similar interests.
